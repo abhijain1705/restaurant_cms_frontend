@@ -104,7 +104,7 @@ const Home = () => {
     }
   }, [isLoading]);
 
-  const url = `http://localhost:3000/restaurant/menu/${selector.uniqueId}`;
+  const url = `https://my-restuarant.vercel.app/restaurant/menu/${selector.uniqueId}`;
 
   const copy = async () => {
     setcopyToClipboard(true);
